@@ -50,6 +50,11 @@ public struct PartialSheetStyle {
     }
 }
 
+extension Color
+{
+    static let BankFolioBlue = Color(UIColor(named: ("BankFolioLightBlue"))!)
+}
+
 extension PartialSheetStyle {
 
     /** A default Style for the PartialSheet with system colors.
