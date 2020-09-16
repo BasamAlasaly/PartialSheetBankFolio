@@ -61,7 +61,7 @@ extension PartialSheetStyle {
      - blurEffectStyle: nil
      */
     public static func defaultStyle() -> PartialSheetStyle {
-        return PartialSheetStyle(background: .solid(Color(UIColor.tertiarySystemBackground)),
+        return PartialSheetStyle(background: .BankFolioBlue,
                                  handlerBarColor: Color(UIColor.systemGray2),
                                  enableCover: true,
                                  coverColor: Color.black.opacity(0.4),
